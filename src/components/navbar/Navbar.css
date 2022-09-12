@@ -1,0 +1,51 @@
+
+.navbar {
+    background-color: rgba(101, 88, 88, 0.077);
+    overflow: hidden; 
+  
+  }
+  .navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar .nav-btn-login{
+
+    border-radius: 3px;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  
+
+  }
+  .navbar a:hover{
+     background-color: #f2f2f24c;
+  }
+  .navbar input{
+    outline: none;
+    padding:.5em;
+    border-radius: 8px;
+    
+    border:1px solid rgb(180, 166, 166);
+    background-color: rgba(78, 71, 71, 0.075);
+    color: white;
+
+  }
+  .navbar-ext .input-div{
+    display: flex;
+    align-items: center;
+  }
+  .navbar-ext{
+    text-align: center;
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
+  }
